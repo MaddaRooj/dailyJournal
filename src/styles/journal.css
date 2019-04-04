@@ -1,0 +1,9 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
