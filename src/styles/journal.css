@@ -1,9 +1,29 @@
 .form {
     display: flex;
     flex-direction: column;
+    border: blueviolet solid 5px;
 }
 
 body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    background: darkgrey;
+}
+
+.totalForm {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.entryBox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }

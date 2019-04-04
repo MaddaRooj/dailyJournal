@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +8,36 @@
     <title>Daily Journal</title>
     <link rel="stylesheet" type="text/css" href="styles/journal.css">
 </head>
+
 <body>
     <h1>Journal Entry</h1>
-    <form action="">
-        <fieldset class="form">
-            <label for="Journal Date">Date of Entry</label>
-            <input type="date" name="journalDate" id="journalDate">
-        </fieldset>
-        <fieldset class="form">
-            <label for="Concepts Covered">Concepts Covered:</label>
-            <input type="text">
-        </fieldset>
-        <fieldset class="form">
-            <label for="Journal Entry">Journal Entry:</label>
-            <textarea name="Journal Entry" id="#" cols="90" rows="10"></textarea>
-        </fieldset>
-        <fieldset class="form">
-            <label for="Mood">Mood For The Day</label>
-            <select name="mood" id="mood">
-                <option value="Happy">Happy</option>
-                <option value="Meh">Meh</option>
-                <option value="Sad">Sad</option>
-            </select>
-        </fieldset>
-        <fieldset class="form">
-            <button>Submit Journal</button>
-        </fieldset>
-    </form>
+    <div class="entryBox">
+        <form class="totalForm" action="">
+            <fieldset class="form">
+                <label for="Journal Date">Date of Entry</label>
+                <input type="date" name="journalDate" id="journalDate">
+            </fieldset>
+            <fieldset class="form">
+                <label for="Concepts Covered">Concepts Covered:</label>
+                <input type="text">
+            </fieldset>
+            <fieldset class="form">
+                <label for="Journal Entry">Journal Entry:</label>
+                <textarea name="Journal Entry" id="#" cols="50" rows="10"></textarea>
+            </fieldset>
+            <fieldset class="form">
+                <label for="Mood">Mood For The Day</label>
+                <select name="mood" id="mood">
+                    <option value="Happy">Happy</option>
+                    <option value="Meh">Meh</option>
+                    <option value="Sad">Sad</option>
+                </select>
+            </fieldset>
+            <fieldset class="form">
+                <button>Submit Journal</button>
+            </fieldset>
+        </form>
+    </div>
 </body>
+
 </html>
