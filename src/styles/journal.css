@@ -30,5 +30,21 @@ body {
 }
 
 .entryLog {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+}
+
+.entryLog div {
+    border: 1px blueviolet solid;
+    width: 75%;
+    margin-top: 5px;
+}
+
+.entryLog div h1, h3, p {
+    padding-left: 10px;
 }
