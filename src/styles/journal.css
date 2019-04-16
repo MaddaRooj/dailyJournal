@@ -21,6 +21,7 @@ body {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
+    text-shadow: 5px 5px 5px darkslategrey;
 }
 
 .entryBox {
@@ -43,6 +44,11 @@ body {
     border: 1px blueviolet solid;
     width: 75%;
     margin-top: 5px;
+}
+
+.entryLog div h1 {
+    color: steelblue;
+    text-shadow: 2px 2px 2px black;
 }
 
 .entryLog div h1, h3, p {
