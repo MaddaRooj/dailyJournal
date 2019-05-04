@@ -1,8 +1,30 @@
-const makeJournalEntryComponent = (journalEntry) => {
-    return `<div>
-                <h1>${journalEntry.conceptCovered}</h1>
-                <h3>${journalEntry.date}</h3>
-                <h3>Mood: ${journalEntry.mood}</h3>
-                <p>${journalEntry.content}</p>
-            </div>`
-};
+function buildJournalDOM(entry) {
+    // build journal card container
+    let journalCard = document.createElement("section");
+    journalCard.setAttribute("id", `journal-${entry.id}`);
+    journalCard.setAttribute("class", "journal_card");
+  
+    // build header element
+    let journalConcept = document.createElement("h1");
+    journalConcept.textContent = entry.conceptCovered;
+  
+    // build journal details
+    let journalDetails = document.createElement("div");
+    journalDetails.innerHTML = `
+          <h3>Date: ${entry.date}</h3>
+          <h3>Mood: ${entry.mood}</h3>
+          <p>${entry.content}</p>
+        `;
+  
+    let deleteBtn = document.createElement("button");
+    deleteBtn.textContent = "Delete Entry";
+    deleteBtn.addEventListener("click", () => {
+      API.deleteEntry(entry.id).then(renderJournalEntries);
+    });  
+  
+    journalCard.appendChild(journalConcept);
+    journalCard.appendChild(journalDetails);
+    journalCard.appendChild(deleteBtn);
+  
+    entryLog.appendChild(journalCard);
+  }
