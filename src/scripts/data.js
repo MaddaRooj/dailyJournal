@@ -21,21 +21,21 @@ const API = {
             body: JSON.stringify(newjournalObject)
         }).then(response => response.json());
     // },
-    // deleteChicken: function (chickenId) {
-    //     return fetch(`${baseUrl}/${chickenId}`, {
+    // deleteEntry: function (entryId) {
+    //     return fetch(`${baseUrl}/${entryId}`, {
     //         method: "DELETE",
     //         headers: {
     //             "Content-Type": "application/json"
     //         }
     //     }).then(response => response.json());
     // },
-    // editChicken: function (chickenId, chickenObject) {
-    //     return fetch(`${baseUrl}/${chickenId}`, {
+    // editEntry: function (entryId, journalObject) {
+    //     return fetch(`${baseUrl}/${entryId}`, {
     //         method: "PUT",
     //         headers: {
     //             "Content-Type": "application/json"
     //         },
-    //         body: JSON.stringify(chickenObject)
+    //         body: JSON.stringify(journalObject)
     //     }).then(response => response.json());
     }
 };
