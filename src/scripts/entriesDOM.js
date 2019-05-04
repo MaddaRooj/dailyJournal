@@ -4,11 +4,10 @@ const renderJournalEntries =
     API.getJournalEntries().then(entries => {
         entries.forEach(entry => {
             console.table(entry);
-            let postEntry = makeJournalEntryComponent(entry);
-            entryLog.innerHTML += postEntry;
+            buildJournalDOM(entry);
         })
     });
 
 const filterJournalEntries = (entry) => {
-    entryLog.innerHTML += makeJournalEntryComponent(entry);
+    buildJournalDOM(entry);
 };

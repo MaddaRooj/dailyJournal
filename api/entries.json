@@ -1,13 +1,6 @@
 {
   "journalEntries": [
     {
-      "date": "April 11, 2019",
-      "conceptCovered": "Java Objects/Functions",
-      "content": "Hello World!",
-      "mood": "Happy",
-      "id": 1
-    },
-    {
       "date": "April 10, 2019",
       "conceptCovered": "JavaScript Functions",
       "content": "I am a second journal entry!",
@@ -27,13 +20,6 @@
       "content": "I know how to work in a group!",
       "mood": "Happy",
       "id": 4
-    },
-    {
-      "date": "",
-      "conceptCovered": "",
-      "content": "",
-      "mood": "Happy",
-      "id": 5
     },
     {
       "date": "",
@@ -73,23 +59,9 @@
     {
       "date": "",
       "conceptCovered": "Trials and Tribulations",
-      "content": "dfsdfbgsdfgsdfgsdfg",
-      "mood": "Meh",
-      "id": 11
-    },
-    {
-      "date": "",
-      "conceptCovered": "Trials and Tribulations",
       "content": "sdfgsdfgsdfg",
       "mood": "Happy",
       "id": 12
-    },
-    {
-      "date": "",
-      "conceptCovered": "",
-      "content": "asdfasdfasdfasdf",
-      "mood": "Happy",
-      "id": 13
     },
     {
       "date": "1999-05-06",
@@ -97,13 +69,6 @@
       "content": "",
       "mood": "Sad",
       "id": 14
-    },
-    {
-      "date": "",
-      "conceptCovered": "",
-      "content": "",
-      "mood": "Happy",
-      "id": 15
     },
     {
       "date": "1998-05-06",
@@ -125,6 +90,13 @@
       "content": "I can post new journal entries now!",
       "mood": "Happy",
       "id": 18
+    },
+    {
+      "date": "2019-05-03",
+      "conceptCovered": "meh",
+      "content": "I feel meh",
+      "mood": "Meh",
+      "id": 19
     }
   ]
 }

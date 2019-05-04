@@ -1,7 +1,5 @@
 console.log('Hello World!');
 
-API.getJournalEntries().then(renderJournalEntries);
-
 const journalText = document.querySelector("#journaltext");
 const journalMood = document.querySelector("#mood");
 const journalConcept = document.querySelector("#journalConcept");
@@ -58,7 +56,7 @@ sadFilter.addEventListener("click", function () {
             }
         })
     })
-})
+});
 
 allFilter.addEventListener("click", function () {
     entryLog.innerHTML = "";
@@ -67,5 +65,5 @@ allFilter.addEventListener("click", function () {
             filterJournalEntries(entry);
         })
     })
-})
+});
 
