@@ -4,6 +4,15 @@
     border: blueviolet solid 5px;
     width: 100%;
 }
+.form2 {
+    width: 50%;
+    margin: 10px;
+}
+
+#moodContainer {
+    display: flex;
+    justify-content: center;
+}
 
 body {
     font-family: 'Times New Roman', Times, serif;

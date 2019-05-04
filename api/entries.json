@@ -1,28 +1,130 @@
 {
-    "journalEntries": [
-        {
-            "date": "April 11, 2019",
-            "conceptCovered": "Java Objects/Functions",
-            "content": "Hello World!",
-            "mood": "happy"
-        },
-        {
-            "date": "April 10, 2019",
-            "conceptCovered": "JavaScript Functions",
-            "content": "I am a second journal entry!",
-            "mood": "happy"
-        },
-        {
-            "date": "April 9, 2019",
-            "conceptCovered": "JavaScript Functions",
-            "content": "I am a third journal entry!",
-            "mood": "happy"
-        },
-        {
-            "date": "April 8, 2019",
-            "conceptCovered": "Group Projects",
-            "content": "I know how to work in a group!",
-            "mood": "happy"
-        }
-    ]
+  "journalEntries": [
+    {
+      "date": "April 11, 2019",
+      "conceptCovered": "Java Objects/Functions",
+      "content": "Hello World!",
+      "mood": "happy",
+      "id": 1
+    },
+    {
+      "date": "April 10, 2019",
+      "conceptCovered": "JavaScript Functions",
+      "content": "I am a second journal entry!",
+      "mood": "happy",
+      "id": 2
+    },
+    {
+      "date": "April 9, 2019",
+      "conceptCovered": "JavaScript Functions",
+      "content": "I am a third journal entry!",
+      "mood": "happy",
+      "id": 3
+    },
+    {
+      "date": "April 8, 2019",
+      "conceptCovered": "Group Projects",
+      "content": "I know how to work in a group!",
+      "mood": "happy",
+      "id": 4
+    },
+    {
+      "date": "",
+      "conceptCovered": "",
+      "content": "",
+      "mood": "Happy",
+      "id": 5
+    },
+    {
+      "date": "",
+      "conceptCovered": "Trials and Tribulations",
+      "content": "",
+      "mood": "Happy",
+      "id": 6
+    },
+    {
+      "date": "",
+      "conceptCovered": "Trials and Tribulations",
+      "content": "zxcvzxcvzxcvxzcv",
+      "mood": "Happy",
+      "id": 7
+    },
+    {
+      "date": "",
+      "conceptCovered": "jhgkjhgjh",
+      "content": "asdfasdfasdfasdfasd",
+      "mood": "Happy",
+      "id": 8
+    },
+    {
+      "date": "",
+      "conceptCovered": "Trials and Tribulations",
+      "content": "2234234234234234234",
+      "mood": "Happy",
+      "id": 9
+    },
+    {
+      "date": "5345-03-04",
+      "conceptCovered": "",
+      "content": "sdfgsdfgsdfgsdfg",
+      "mood": "Happy",
+      "id": 10
+    },
+    {
+      "date": "",
+      "conceptCovered": "Trials and Tribulations",
+      "content": "dfsdfbgsdfgsdfgsdfg",
+      "mood": "Meh",
+      "id": 11
+    },
+    {
+      "date": "",
+      "conceptCovered": "Trials and Tribulations",
+      "content": "sdfgsdfgsdfg",
+      "mood": "Happy",
+      "id": 12
+    },
+    {
+      "date": "",
+      "conceptCovered": "",
+      "content": "asdfasdfasdfasdf",
+      "mood": "Happy",
+      "id": 13
+    },
+    {
+      "date": "1999-05-06",
+      "conceptCovered": "Trials and Tribulations",
+      "content": "",
+      "mood": "Sad",
+      "id": 14
+    },
+    {
+      "date": "",
+      "conceptCovered": "",
+      "content": "",
+      "mood": "Happy",
+      "id": 15
+    },
+    {
+      "date": "1998-05-06",
+      "conceptCovered": "Trials and Tribulations",
+      "content": "s;ldkfj;sdflkgj",
+      "mood": "Sad",
+      "id": 16
+    },
+    {
+      "date": "85552-06-09",
+      "conceptCovered": "Trials and Tribulations",
+      "content": "hello moto i have done it",
+      "mood": "Happy",
+      "id": 17
+    },
+    {
+      "date": "2019-05-03",
+      "conceptCovered": "Success!!!",
+      "content": "I can post new journal entries now!",
+      "mood": "Happy",
+      "id": 18
+    }
+  ]
 }
