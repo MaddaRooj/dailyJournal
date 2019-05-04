@@ -19,11 +19,11 @@
             </fieldset>
             <fieldset class="form">
                 <label for="Concepts Covered">Concepts Covered:</label>
-                <input type="text">
+                <input id="journalConcept" type="text">
             </fieldset>
             <fieldset class="form">
                 <label for="Journal Entry">Journal Entry:</label>
-                <textarea name="Journal Entry" id="#" cols="50" rows="10"></textarea>
+                <textarea name="Journal Entry" id="journaltext" cols="50" rows="10"></textarea>
             </fieldset>
             <fieldset class="form">
                 <label for="Mood">Mood For The Day</label>
@@ -34,13 +34,29 @@
                 </select>
             </fieldset>
             <fieldset class="form">
-                <button>Submit Journal</button>
+                <button id="submit">Submit Journal</button>
             </fieldset>
         </form>
+    </div>
+    <div id="moodContainer">
+        <fieldset class="form2">
+            <h2>Filter my Mood:</h2>
+            <label for="happy">Happy: </label>
+            <input type="radio" name="moodBtn" id="happy" value="Happy">
+            <label for="meh">Meh: </label>
+            <input type="radio" name="moodBtn" id="meh" value="Meh">
+            <label for="sad">Sad: </label>
+            <input type="radio" name="moodBtn" id="sad" value="Sad">
+            <label for="all">All Entries: </label>
+            <input type="radio" name="moodBtn" id="all" value="All">
+        </fieldset>
     </div>
 
     <article class="entryLog"></article>
 
+    <script src="scripts/data.js"></script>
+    <script src="scripts/entriesDOM.js"></script>
+    <script src="scripts/entryComponent.js"></script>
     <script src="scripts/journal.js"></script>
 </body>
 
