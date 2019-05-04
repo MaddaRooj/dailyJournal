@@ -65,4 +65,5 @@ body {
     color: steelblue;
     font-size: 35px;
     text-shadow: 2px 2px 2px black;
+    text-decoration: underline black;
 }
