@@ -8,3 +8,7 @@ const renderJournalEntries =
             entryLog.innerHTML += postEntry;
         })
     });
+
+const filterJournalEntries = (entry) => {
+    entryLog.innerHTML += makeJournalEntryComponent(entry);
+};
