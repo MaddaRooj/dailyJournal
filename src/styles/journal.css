@@ -53,18 +53,16 @@ body {
     align-items: center;
     justify-content: center;
     align-content: center;
-    padding-top: 20px;
 }
 
 .entryLog div {
-    margin: 10px 10px;
+    margin: 0px 10px;
 }
 
-.entryLog div h1 {
+.entryLog h1 {
+    margin-top: 0px;
+    margin-bottom: 3px;
     color: steelblue;
+    font-size: 35px;
     text-shadow: 2px 2px 2px black;
-}
-
-.entryLog div h1, h3, p {
-    padding-left: 10px;
 }
