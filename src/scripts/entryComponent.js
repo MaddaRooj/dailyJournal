@@ -5,4 +5,4 @@ const makeJournalEntryComponent = (journalEntry) => {
                 <h3>Mood: ${journalEntry.mood}</h3>
                 <p>${journalEntry.content}</p>
             </div>`
-}
+};
