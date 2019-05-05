@@ -1,27 +1,6 @@
 {
   "journalEntries": [
     {
-      "date": "April 10, 2019",
-      "conceptCovered": "JavaScript Functions",
-      "content": "I am a second journal entry!",
-      "mood": "Happy",
-      "id": 2
-    },
-    {
-      "date": "April 9, 2019",
-      "conceptCovered": "JavaScript Functions",
-      "content": "I am a third journal entry!",
-      "mood": "Happy",
-      "id": 3
-    },
-    {
-      "date": "April 8, 2019",
-      "conceptCovered": "Group Projects",
-      "content": "I know how to work in a group!",
-      "mood": "Happy",
-      "id": 4
-    },
-    {
       "date": "1998-05-06",
       "conceptCovered": "added this with edit",
       "content": "I edited this entry successfully!",
@@ -52,9 +31,23 @@
     {
       "date": "2019-05-04",
       "conceptCovered": "Added with edits",
-      "content": "today was a good day for science.",
+      "content": "today was a good day for science!",
       "mood": "Sad",
       "id": 21
+    },
+    {
+      "date": "2019-12-18",
+      "conceptCovered": "test",
+      "content": "test",
+      "mood": "Happy",
+      "id": 22
+    },
+    {
+      "date": "2019-05-05",
+      "conceptCovered": "Date format",
+      "content": "i was able to use the new date method in javascript to show the name of the month rather than the number.",
+      "mood": "Happy",
+      "id": 23
     }
   ]
 }
