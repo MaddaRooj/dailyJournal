@@ -18,7 +18,7 @@ function newjournalObject() {
         content: journalText.value,
         mood: journalMood.value
     };
-    if (journalId.value !== null){
+    if (journalId.value !== ""){
         API.editEntry(journalId.value, newJournal).then(renderJournalEntries);
     }
     else {

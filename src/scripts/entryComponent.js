@@ -1,4 +1,7 @@
 function buildJournalDOM(entry) {
+  let formattedDate = new Date(entry.date);
+  const month = formattedDate.toLocaleString("en-us", { month: "long" });
+  let dateFormat = entry.date.split("-");
   // build journal card container
   let journalCard = document.createElement("section");
   journalCard.setAttribute("id", `journal-${entry.id}`);
@@ -11,7 +14,7 @@ function buildJournalDOM(entry) {
   // build journal details
   let journalDetails = document.createElement("div");
   journalDetails.innerHTML = `
-          <h3>Date: ${entry.date}</h3>
+          <h2>${month} ${dateFormat[2]}, ${dateFormat[0]}</h2>
           <h3>Mood: ${entry.mood}</h3>
           <p>${entry.content}</p>
         `;
@@ -21,7 +24,7 @@ function buildJournalDOM(entry) {
   editBtn.textContent = "Edit Entry";
   editBtn.addEventListener("click", () => {
     console.log(`You are editing Journal Entry ${entry.id}`)
-    document.querySelector(".entryBox").focus();
+    document.querySelector("#header").focus();
     document.querySelector("#submit").textContent = `Edit Journal ${entry.id}`;
     journalConcept.value = entry.conceptCovered;
     journalDate.value = entry.date;
