@@ -1,12 +1,16 @@
 .form {
     display: flex;
     flex-direction: column;
-    border: blueviolet solid 5px;
+    border: black solid 3px;
     width: 100%;
 }
-.form2 {
-    width: 50%;
-    margin: 10px;
+
+.hidden {
+    display: none;
+}
+
+.radio {
+    padding: auto;
 }
 
 .journal_card {
@@ -22,7 +26,7 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Cinzel', serif;
     font-weight: bold;
     background: darkgrey;
 }
@@ -35,7 +39,7 @@ body {
 
 #header {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Cinzel', serif;
     font-style: italic;
     text-shadow: 5px 5px 5px darkslategrey;
 }
@@ -67,3 +71,128 @@ body {
     text-shadow: 2px 2px 2px black;
     text-decoration: underline black;
 }
+
+#submit {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    background-color: steelblue;
+    color: rgb(5, 5, 5);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #submit:hover {
+      box-shadow: 2px 2px 2px 2px black;
+  }
+
+  #mood {
+      margin: 8px 10px;
+      width: 50%;
+      height: 50%;
+      border-radius: 5px;
+  }
+  #journalDate {
+      margin: 8px 10px;
+      width: 50%;
+      height: 50%;
+      border-radius: 5px;
+  }
+  #journalConcept {
+      margin: 6px 10px 15px 10px;
+      width: 50%;
+      height: 50%;
+      border-radius: 5px;
+  }
+  #journaltext {
+      margin: 8px 10px;
+      width: 80%;
+      height: 150px;
+      border-radius: 3px;
+  }
+
+  .radio {
+    font-family: 'Cinzel', serif;
+  }
+
+  input {
+    font-family: 'Cinzel', serif;
+    padding-left: 10px;
+    font-weight: 600;
+  }
+
+  textarea {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 10px;
+  }
+
+  option {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+  }
+
+  select {
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  /* Customize the label (the container) */
+.form2 {
+    width: 60%;
+    margin: 10px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+  }
+
+  .delete_btn {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    width: 35%;
+    border: 1px solid black;
+    background-color: maroon;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    
+  }
+
+  .edit_btn {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    width: 35%;
+    border: 1px solid black;
+    background-color: slateblue;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+
+  #hiddenIdInput {
+      display: none;
+  }
+
+  .edit_btn:hover {
+      background-color: lightslategray;
+      border-color: slateblue;
+      color: black;
+      cursor: pointer;
+  }
+
+  .delete_btn:hover {
+      background-color: lightslategray;
+      border-color: maroon;
+      color: black;
+      cursor: pointer;
+  }
+  

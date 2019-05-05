@@ -5,8 +5,8 @@ function buildJournalDOM(entry) {
   journalCard.setAttribute("class", "journal_card");
 
   // build header element
-  let journalConcept = document.createElement("h1");
-  journalConcept.textContent = entry.conceptCovered;
+  let journalconcept = document.createElement("h1");
+  journalconcept.textContent = entry.conceptCovered;
 
   // build journal details
   let journalDetails = document.createElement("div");
@@ -16,7 +16,22 @@ function buildJournalDOM(entry) {
           <p>${entry.content}</p>
         `;
 
+  let editBtn = document.createElement("button");
+  editBtn.setAttribute("class", "edit_btn");
+  editBtn.textContent = "Edit Entry";
+  editBtn.addEventListener("click", () => {
+    console.log(`You are editing Journal Entry ${entry.id}`)
+    document.querySelector(".entryBox").focus();
+    document.querySelector("#submit").textContent = `Edit Journal ${entry.id}`;
+    journalConcept.value = entry.conceptCovered;
+    journalDate.value = entry.date;
+    journalText.value = entry.content;
+    journalMood.value = entry.mood;
+    journalId.value = entry.id;
+  });
+
   let deleteBtn = document.createElement("button");
+  deleteBtn.setAttribute("class", "delete_btn");
   deleteBtn.textContent = "Delete Entry";
   deleteBtn.addEventListener("click", () => {
     let result = confirm(`Are you sure you want to delete Journal ${entry.id}?`);
@@ -25,8 +40,9 @@ function buildJournalDOM(entry) {
     }
   });
 
-  journalCard.appendChild(journalConcept);
+  journalCard.appendChild(journalconcept);
   journalCard.appendChild(journalDetails);
+  journalCard.appendChild(editBtn);
   journalCard.appendChild(deleteBtn);
   entryLog.appendChild(journalCard);
 }
