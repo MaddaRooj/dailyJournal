@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Daily Journal</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/journal.css">
 </head>
 
@@ -33,6 +34,10 @@
                     <option value="Sad">Sad</option>
                 </select>
             </fieldset>
+            <fieldset class="form" id="hiddenIdInput">
+                <label for="EntryId">Entry Id</label>
+                <input id="entryIdInput" type="number">
+            </fieldset>
             <fieldset class="form">
                 <button id="submit">Submit Journal</button>
             </fieldset>
@@ -41,14 +46,14 @@
     <div id="moodContainer">
         <fieldset class="form2">
             <h2>Filter my Mood:</h2>
-            <label for="happy">Happy: </label>
-            <input type="radio" name="moodBtn" id="happy" value="Happy">
-            <label for="meh">Meh: </label>
-            <input type="radio" name="moodBtn" id="meh" value="Meh">
-            <label for="sad">Sad: </label>
-            <input type="radio" name="moodBtn" id="sad" value="Sad">
-            <label for="all">All Entries: </label>
-            <input type="radio" name="moodBtn" id="all" value="All">
+            <label class="radio" for="happy">Happy: </label>
+            <input class="radio" type="radio" name="moodBtn" id="happy" value="Happy">
+            <label class="radio" for="meh">Meh: </label>
+            <input class="radio" type="radio" name="moodBtn" id="meh" value="Meh">
+            <label class="radio" for="sad">Sad: </label>
+            <input class="radio" type="radio" name="moodBtn" id="sad" value="Sad">
+            <label class="radio" for="all">All Entries: </label>
+            <input class="radio" type="radio" name="moodBtn" id="all" value="All">
         </fieldset>
     </div>
 

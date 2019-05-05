@@ -23,9 +23,9 @@
     },
     {
       "date": "1998-05-06",
-      "conceptCovered": "Trials and Tribulations",
-      "content": "s;ldkfj;sdflkgj",
-      "mood": "Sad",
+      "conceptCovered": "added this with edit",
+      "content": "I edited this entry successfully!",
+      "mood": "Meh",
       "id": 16
     },
     {
@@ -41,6 +41,20 @@
       "content": "I feel meh",
       "mood": "Meh",
       "id": 19
+    },
+    {
+      "date": "2019-05-04",
+      "conceptCovered": "Trials and Tribulations 2.0",
+      "content": "Today I will work a bit on the style of my journal , as well as attempting to implement the edit entry feature as a stretch goal.",
+      "mood": "Meh",
+      "id": 20
+    },
+    {
+      "date": "2019-05-04",
+      "conceptCovered": "Added with edits",
+      "content": "today was a good day for science.",
+      "mood": "Sad",
+      "id": 21
     }
   ]
 }

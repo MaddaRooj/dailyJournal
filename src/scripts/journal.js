@@ -4,6 +4,7 @@ const journalText = document.querySelector("#journaltext");
 const journalMood = document.querySelector("#mood");
 const journalConcept = document.querySelector("#journalConcept");
 const journalDate = document.querySelector("#journalDate");
+const journalId = document.querySelector("#entryIdInput");
 
 const happyFilter = document.querySelector("#happy");
 const mehFilter = document.querySelector("#meh");
@@ -17,7 +18,12 @@ function newjournalObject() {
         content: journalText.value,
         mood: journalMood.value
     };
-    API.saveNewEntry(newJournal).then(renderJournalEntries);
+    if (journalId.value !== null){
+        API.editEntry(journalId.value, newJournal).then(renderJournalEntries);
+    }
+    else {
+        API.saveNewEntry(newJournal).then(renderJournalEntries);
+    }
 };
 
 document.querySelector("#submit").addEventListener("click", function () {

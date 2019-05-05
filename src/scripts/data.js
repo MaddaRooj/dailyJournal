@@ -29,13 +29,13 @@ const API = {
             }
         }).then(response => response.json());
     },
-    // editEntry: function (entryId, journalObject) {
-    //     return fetch(`${baseUrl}/${entryId}`, {
-    //         method: "PUT",
-    //         headers: {
-    //             "Content-Type": "application/json"
-    //         },
-    //         body: JSON.stringify(journalObject)
-    //     }).then(response => response.json());
-    // }
+    editEntry: function (entryId, journalObject) {
+        return fetch(`${baseUrl}/${entryId}`, {
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(journalObject)
+        }).then(response => response.json());
+    }
 };
