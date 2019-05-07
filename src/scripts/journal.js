@@ -11,6 +11,8 @@ const mehFilter = document.querySelector("#meh");
 const sadFilter = document.querySelector("#sad");
 const allFilter = document.querySelector("#all");
 
+renderJournalEntries();
+
 function newjournalObject() {
     const newJournal = {
         date: journalDate.value,
@@ -19,16 +21,17 @@ function newjournalObject() {
         mood: journalMood.value
     };
     if (journalId.value !== ""){
-        API.editEntry(journalId.value, newJournal).then(renderJournalEntries);
+        API.editEntry(journalId.value, newJournal).then(() => renderJournalEntries());
     }
     else {
-        API.saveNewEntry(newJournal).then(renderJournalEntries);
+        API.saveNewEntry(newJournal).then(() => renderJournalEntries());
     }
 };
 
 document.querySelector("#submit").addEventListener("click", function () {
     event.preventDefault();
     newjournalObject();
+    setTimeout("location.reload(true);", 500);
 });
 
 happyFilter.addEventListener("click", function () {

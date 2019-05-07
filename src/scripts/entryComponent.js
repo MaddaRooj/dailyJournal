@@ -24,7 +24,7 @@ function buildJournalDOM(entry) {
   editBtn.textContent = "Edit Entry";
   editBtn.addEventListener("click", () => {
     console.log(`You are editing Journal Entry ${entry.id}`)
-    document.querySelector("#header").focus();
+    document.querySelector("#journalConcept").focus();
     document.querySelector("#submit").textContent = `Edit Journal ${entry.id}`;
     journalConcept.value = entry.conceptCovered;
     journalDate.value = entry.date;
