@@ -1,9 +1,9 @@
 {
   "journalEntries": [
     {
-      "date": "1998-05-06",
-      "conceptCovered": "added this with edit",
-      "content": "I edited this entry successfully!",
+      "date": "2019-05-07",
+      "conceptCovered": "altering the first entry",
+      "content": "does this shit work???",
       "mood": "Meh",
       "id": 16
     },
@@ -13,13 +13,6 @@
       "content": "I can post new journal entries now!",
       "mood": "Happy",
       "id": 18
-    },
-    {
-      "date": "2019-05-03",
-      "conceptCovered": "meh",
-      "content": "I feel meh",
-      "mood": "Meh",
-      "id": 19
     },
     {
       "date": "2019-05-04",
@@ -37,8 +30,8 @@
     },
     {
       "date": "2019-12-18",
-      "conceptCovered": "test",
-      "content": "test",
+      "conceptCovered": "test edited this one ",
+      "content": "testing buttons",
       "mood": "Happy",
       "id": 22
     },
@@ -48,6 +41,27 @@
       "content": "i was able to use the new date method in javascript to show the name of the month rather than the number.",
       "mood": "Happy",
       "id": 23
+    },
+    {
+      "date": "2019-05-06",
+      "conceptCovered": "Browserify",
+      "content": "browserify is nonsense that's only use is to make this more complex than is at all necessary. I don't like it one bit.",
+      "mood": "Sad",
+      "id": 24
+    },
+    {
+      "date": "2019-05-07",
+      "conceptCovered": "Browserify",
+      "content": "bryan went through some clarification of the functionality of browserify. also discussed separating database objects into separate collections. things are getting muddy.",
+      "mood": "Meh",
+      "id": 25
+    },
+    {
+      "date": "2019-05-07",
+      "conceptCovered": "new entry 3:05",
+      "content": "new entry edited and tested and edited again",
+      "mood": "Sad",
+      "id": 26
     }
   ]
 }
